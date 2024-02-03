@@ -3,7 +3,7 @@
 ```sql
 CREATE [OR REPLACE] FUNCTION func (param type, param type)
     RETURNS TYPE
-    LANGUAGE pgplsql
+    LANGUAGE plpgsql
 AS 
 $$
     DECLARE 

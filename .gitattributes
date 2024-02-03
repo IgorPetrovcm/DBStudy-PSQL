@@ -1,6 +1,6 @@
 *.sql linguist-detectable=true
 *.md linguist-detectable=true
-* linguist-detectable=true
+
 
 *.sql linguist-language=PostgreSQL
-*.md linguist-language=Markdown
+

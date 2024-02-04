@@ -1,6 +1,8 @@
-DROP TABLE IF EXISTS education;
+DROP TABLE IF EXISTS appointments;
 
 DROP TABLE IF EXISTS employees;
+
+DROP TABLE IF EXISTS education;
 
 DROP TABLE IF EXISTS departments;
 
@@ -38,7 +40,7 @@ CREATE TABLE appointments (
     position_id INTEGER REFERENCES positions(id),
     department_id INTEGER REFERENCES departments(id),
     employee_id INTEGER REFERENCES employees(id)
-)
+);
 
 CREATE OR REPLACE PROCEDURE importData(path TEXT)
     LANGUAGE plpgsql
@@ -62,7 +64,18 @@ $$
             dateDismissal TIMESTAMP
         ) ;
 
-        EXECUTE format('COPY current_table FROM %L DELIMITER '','' CSV HEADER', path);
+        EXECUTE format('COPY current_table (codeEmployee,
+        nameEmployee,
+        gender,
+        birthDate,
+        telephon,
+        education,
+        nameDepartment,
+        codePosition,
+        namePosition,
+        codeDepartment,
+        dateAppoint,
+        dateDismissal) FROM %L DELIMITER '','' CSV HEADER', path);
 
         INSERT INTO education (name) 
         SELECT DISTINCT education FROM current_table;
@@ -74,6 +87,9 @@ $$
         SELECT DISTINCT codePosition, namePosition FROM current_table;
 
         INSERT INTO employees (id, last_name,first_name,sur_name) 
-        SELECT codeEmployee, SPLIT_PART(nameEmployee,' ',1), SPLIT_PART(nameEmployee,' ', 2), SPLIT_PART(nameEmployee,' ',3) FROM current_table
+        SELECT codeEmployee, SPLIT_PART(nameEmployee,' ',1), SPLIT_PART(nameEmployee,' ', 2), SPLIT_PART(nameEmployee,' ',3) 
+		FROM current_table;
     END;
 $$;
+
+CALL importData('C:\Users\Honor\Desktop\Programming\DBStudy-PSQL\GeneralPractics\fromCollege\Semester4\pr1_2\csvСотрудникиИмпорт.csv');

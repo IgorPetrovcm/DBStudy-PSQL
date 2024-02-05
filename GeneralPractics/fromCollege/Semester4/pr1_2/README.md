@@ -48,3 +48,9 @@
          ```sql
          SET datestyle = GERMAN,MDY;
          ```
+3. -
+4. -
+5. После импорта напишем скрипт для обновления таблиц, а точнее **appointments** и **employees**, реализуем каскадное обновление, так как оно отвечает и за каскадное удаление: Реализация [здесь](implementation/alter-table-cascade.sql).
+6. -
+7. Создадим процедуру **task7** [здесь](implementation/task7-procedure.sql)
+8. Создадим процедуру **task8** [здесь](implementation/task8-procedure.sql)

@@ -1,0 +1,6 @@
+FROM postgres:16.2-alpine
+
+ENV POSTGRES_PASSWORD=root 
+ENV POSTGRES_USER=root
+
+EXPOSE 5432

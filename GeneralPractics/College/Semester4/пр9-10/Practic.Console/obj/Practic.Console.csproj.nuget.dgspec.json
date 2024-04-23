@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\igorp\\College\\GeneralRep\\-\\Базы_Данных\\Петров Игорь\\Практические\\пр9-10\\Practic.Console\\Practic.Console.csproj": {}
+    "C:\\Users\\igorp\\Programming\\So-Far-Postgres\\GeneralPractics\\College\\Semester4\\пр9-10\\Practic.Console\\Practic.Console.csproj": {}
   },
   "projects": {
-    "C:\\Users\\igorp\\College\\GeneralRep\\-\\Базы_Данных\\Петров Игорь\\Практические\\пр9-10\\Practic.Console\\Practic.Console.csproj": {
+    "C:\\Users\\igorp\\Programming\\So-Far-Postgres\\GeneralPractics\\College\\Semester4\\пр9-10\\Practic.Console\\Practic.Console.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\igorp\\College\\GeneralRep\\-\\Базы_Данных\\Петров Игорь\\Практические\\пр9-10\\Practic.Console\\Practic.Console.csproj",
+        "projectUniqueName": "C:\\Users\\igorp\\Programming\\So-Far-Postgres\\GeneralPractics\\College\\Semester4\\пр9-10\\Practic.Console\\Practic.Console.csproj",
         "projectName": "Practic.Console",
-        "projectPath": "C:\\Users\\igorp\\College\\GeneralRep\\-\\Базы_Данных\\Петров Игорь\\Практические\\пр9-10\\Practic.Console\\Practic.Console.csproj",
+        "projectPath": "C:\\Users\\igorp\\Programming\\So-Far-Postgres\\GeneralPractics\\College\\Semester4\\пр9-10\\Practic.Console\\Practic.Console.csproj",
         "packagesPath": "C:\\Users\\igorp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\igorp\\College\\GeneralRep\\-\\Базы_Данных\\Петров Игорь\\Практические\\пр9-10\\Practic.Console\\obj\\",
+        "outputPath": "C:\\Users\\igorp\\Programming\\So-Far-Postgres\\GeneralPractics\\College\\Semester4\\пр9-10\\Practic.Console\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

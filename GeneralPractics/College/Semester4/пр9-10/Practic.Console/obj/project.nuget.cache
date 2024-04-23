@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YalxaS54jZhBzhCH//ToYk0D7r3ZdM1+JeJeq+/unHpJwXXn/jwV3Wgv5R7G3yQNofwMY+oCZxis9fRAOOht8A==",
+  "dgSpecHash": "q1LNVxfZgOa/lJLvLJVCZQyRn59lv9voRrpKlJooUGE5y5rznVYO3jMqeNi+C9vsk6ZW/xPI0GnGKh7cdlmZ0g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\igorp\\College\\GeneralRep\\-\\Базы_Данных\\Петров Игорь\\Практические\\пр9-10\\Practic.Console\\Practic.Console.csproj",
+  "projectFilePath": "C:\\Users\\igorp\\Programming\\So-Far-Postgres\\GeneralPractics\\College\\Semester4\\пр9-10\\Practic.Console\\Practic.Console.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\igorp\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",
     "C:\\Users\\igorp\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
